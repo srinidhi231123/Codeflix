@@ -28,7 +28,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29610881'))
 API_HASH = environ.get('API_HASH', '81d92754c9e7e7be225bf656e04e6f45')
 OWNER_ID = environ.get('OWNER_ID', '1291610043')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6871508979:AAE5wG0qnFJyIHC3ej6b6bWJDfq1Q_M1bi0")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6871508979:AAEY0BYUb-KXcEA_mOPkNAedhZsr68awuMY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -70,9 +70,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrprince24gopriya:mrprince24gopriya@cluster0.yfb9o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster143")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gopinath2333:codeflixrepo@cluster23.ottm4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster23")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster23")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'my_tg_files')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
